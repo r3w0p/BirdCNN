@@ -9,7 +9,7 @@ temp=${edison}/preprocessed
 mkdir -p ${edison} ${uploads} ${predictions} ${temp}
 
 echo
-echo "Listening for new .mp3 files..."
+echo "Listening for new .wav files..."
 
 while true; do
   for file in ${uploads}/*.wav; do
